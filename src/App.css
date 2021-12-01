@@ -1,0 +1,219 @@
+.app {
+  margin: 0 10px;
+}
+
+.appBody {
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 85vh;
+}
+
+/*_______header______*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+
+
+.filters {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+option {
+  height: 30px;
+  padding: 10px;
+}
+
+.inputField, .searchField {
+  margin-left: 20px;
+  height: 25px;
+  border: none;
+}
+
+.searchField {
+  border: 1px solid grey;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+/*__________menu___________*/
+
+.menu {
+  margin: 15px;
+  box-shadow: 0px 5px 5px -5px rgb(223, 222, 222);
+}
+
+.menuWrapperFlex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 30px;
+
+}
+
+.filterDiv {
+  margin: auto 0;
+}
+
+.menuBttn {
+  border: none;
+  background-color: white;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+.menuBttn:hover {
+  border-top: 2px solid #CCABD8;
+  color: #CCABD8;
+}
+
+.menuBttn:focus {
+  border-top: 2px solid #CCABD8;
+  color: #CCABD8;
+}
+
+.collapsable {
+  display: none;
+  padding: 20px;
+  max-height: 0;
+}
+
+/*____Add employee____*/
+
+.employeeForm{
+  max-width: 460px;
+  margin-left: -20px;
+}
+
+.employeeForm tbody, .employeeForm tr, .employeeForm th {
+  border: none;
+}
+
+.employeeForm select {
+  width: 178px;
+}
+
+.addEmployeeBtn {
+  border: none;
+  margin: 0 20px 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #86E3CE;
+}
+
+.addEmployeeBtn:hover {
+  cursor: pointer;
+  background-color: #02dfab;
+}
+
+/*_____Edit locations/departments_____*/
+
+.editLocations button {
+  border: none;
+  margin: 0 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.addBtn {
+  background-color: #86E3CE;
+  min-width: 120px;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  background-color: #02dfab;
+}
+
+.editLocations ul {
+  list-style-type: none;
+  display: inline-flex;
+
+}
+
+.editLocations li {
+  padding: 5px 10px;
+  margin-right: 20px;
+  background-color: #FFDD94;
+  border-radius: 14px;
+}
+
+.editLocations li:hover {
+  background-color: #FA897B;
+  cursor: pointer;
+}
+
+.editLocations p {
+  margin-left: 20px;
+}
+
+.editBtn {
+  min-width: 80px;
+  text-align: center;
+}
+
+/*_________table_________*/
+thead th{
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+table {
+  width: 95%;
+  border-spacing: 0px;
+  table-layout: fixed;
+  margin: auto;
+}
+
+tbody th {
+  text-align: left;
+  border: 1px solid rgb(26, 26, 26);
+  padding: 6px;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.delRow {
+  background-color: #FFDD94;
+  padding: 0;
+}
+
+.delRow:hover {
+  background-color: #FA897B;
+
+}
+
+.delRow > button {
+  border: none;
+  padding: 9px 0;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0);
+  cursor: pointer;
+}
+
+.tableErr {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.errMsg {
+  color: red;
+  font-size: small;
+}
+
+.sccMsg {
+  color: green;
+  font-size: small;
+}
+
+/*menu del btn*/
+
+.errListEl {
+  position: absolute;
+  color: red;
+  font-size: small;
+}
